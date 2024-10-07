@@ -1,0 +1,608 @@
+/*Media Quaries (max-width 1280px) */
+@media (max-width: 1280px) {
+  .about-child :nth-child(2) {
+    font-size: 3.3rem;
+  }
+}
+/*Media Quaries (max-width 1194px) */
+@media (max-width: 1194px) {
+  .about-child :nth-child(2) {
+    font-size: 3rem;
+  }
+  .about-content {
+    width: 100%;
+    padding-top: 2rem;
+  }
+  .about-child {
+    width: 80%;
+  }
+}
+
+/*Media Quaries (max-width 1123px) */
+@media (max-width: 1123px) {
+  .about-child {
+    width: 80%;
+  }
+  .about-content {
+    width: 90%;
+    padding-top: 2rem;
+    line-height: 1.5;
+  }
+  .about-child :nth-child(1) {
+    font-size: 1.4rem;
+  }
+  .about-child :nth-child(2) {
+    font-size: 3.5rem;
+  }
+  .about-child :nth-child(3) {
+    font-size: 1.8rem;
+    line-height: 1.5;
+  }
+  .about-child .accordion-content p {
+    font-size: 1.8rem;
+  }
+  .about-content2 {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  .shop-container {
+    width: 255px;
+  }
+  .shop-container img {
+    width: 170px;
+  }
+  .news-content {
+    font-size: 2.5rem;
+  }
+  .news-form input {
+    padding: 2rem 10rem 2rem 2rem;
+  }
+  .footer-container {
+    padding: 5rem 9rem;
+  }
+}
+
+/*Media Quaries (max-width 1025px) */
+@media (max-width: 1025px) {
+  .about-child :nth-child(1) {
+    font-size: 1.4rem;
+  }
+  .about-child :nth-child(2) {
+    font-size: 3.5rem;
+  }
+  .about-child :nth-child(3) {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  .about-child .accordion-content p {
+    font-size: 1.6rem;
+  }
+  .about-content2 {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .security {
+    width: 43vw;
+  }
+  .shop-container {
+    width: 285px;
+  }
+  .shop-container img {
+    width: 180px;
+  }
+  .news-content {
+    font-size: 2.3rem;
+  }
+  .news-form input {
+    padding: 2rem 8rem 2rem 2rem;
+  }
+}
+/* media quaries (max-width 915px) */
+@media (max-width: 915px) {
+  .overlay h1 {
+    font-size: 3.5rem;
+    animation: slideinBottom 2s ease;
+  }
+  .overlay p {
+    font-size: 1.6rem;
+  }
+  .about-header {
+    padding: 0.6rem;
+    font-size: 2.4rem;
+  }
+  .about-child :nth-child(1) {
+    font-size: 1.4rem;
+  }
+  .about-child :nth-child(2) {
+    font-size: 3rem;
+  }
+  .about-child :nth-child(3) {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  .about-content2 {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  .shop-container {
+    width: 245px;
+  }
+  .shop-container img {
+    width: 170px;
+  }
+}
+
+/*Media Quaries (max-width 884px) */
+@media (max-width: 884px) {
+  .logo img {
+    width: 90px;
+    margin-left: -1.1rem;
+  }
+  #menu-btn {
+    display: inline-block;
+  }
+  nav .wrapper .nav-links {
+    position: absolute;
+    top: 110%;
+    right: -110%;
+    z-index: 999;
+    width: 30rem;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav .wrapper .nav-links a {
+    font-size: 2rem;
+  }
+  nav .wrapper .nav-links.visible {
+    transition: 0.4s linear;
+    right: 4rem;
+  }
+  .dropdown,
+  .shop-box,
+  .sale-box {
+    display: none;
+  }
+  nav .wrapper .search-form {
+    width: 90%;
+  }
+  nav .wrapper .search-form.visible,
+  nav .wrapper .shopping-cart.visible,
+  nav .wrapper .login-form.visible {
+    right: 4rem;
+  }
+  .overlay h1 {
+    font-size: 4rem;
+    animation: slideinBottom 2s ease;
+  }
+  .overlay p {
+    font-size: 2rem;
+  }
+  .about-section {
+    flex-direction: column;
+  }
+  .about-child {
+    width: 80%;
+  }
+  .about-content {
+    width: 95%;
+    padding: 5rem;
+  }
+  .about-img {
+    width: 100%;
+    max-width: 100%;
+  }
+  .about-child :nth-child(1) {
+    font-size: 1.5rem;
+  }
+  .about-child :nth-child(2) {
+    font-size: 4rem;
+  }
+  .about-child :nth-child(3) {
+    font-size: 1.8rem;
+    line-height: 1.5;
+  }
+  .about-content2 {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .security {
+    width: 40vw;
+  }
+  #shop h2 {
+    padding: 2rem 5rem 4rem;
+  }
+  .shop-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .shop-container {
+    width: 250px;
+  }
+  .shop-container img {
+    width: 170px;
+  }
+  .carousel-container {
+    width: 90%;
+  }
+  .carousel img {
+    height: 500px;
+  }
+  .news-content {
+    font-size: 2.4rem;
+  }
+  .news-form input {
+    padding: 2rem 7rem 2rem 2rem;
+  }
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10rem;
+    padding: 5rem 10rem;
+  }
+}
+
+/*Media Quaries (max-width 834px) */
+@media (max-width: 834px) {
+  .overlay h1 {
+    font-size: 3rem;
+  }
+  .overlay p {
+    font-size: 1.7rem;
+  }
+  .about-content2 {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .about-child {
+    width: 90%;
+  }
+  .about-content {
+    width: 90%;
+    padding: 5rem;
+  }
+  .security {
+    width: 40vw;
+  }
+  #shop h2 {
+    text-align: center;
+    padding: 2rem 0rem 4rem;
+  }
+  .shop-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .shop-container {
+    width: 285px;
+  }
+  .shop-container img {
+    width: 180px;
+  }
+  .carousel img {
+    height: 400px;
+  }
+  .news-content {
+    font-size: 2rem;
+  }
+  .news-form input {
+    padding: 2rem 5rem 2rem 2rem;
+  }
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10rem;
+    padding: 5rem 8rem;
+  }
+  .footer-content p,
+  .footer-content p a {
+    font-size: 1.5rem;
+  }
+}
+
+/*Media Quaries (max-width 768px)*/
+@media (max-width: 768px) {
+  .dropdown,
+  .shop-box,
+  .sale-box,
+  .login {
+    display: none;
+  }
+  nav {
+    min-height: 3vh;
+  }
+  .logo img {
+    width: 60px;
+  }
+  .images .pic1 {
+    display: none;
+  }
+  .images .pic2 {
+    display: block;
+    width: 100%;
+  }
+  .overlay {
+    top: 50%;
+  }
+  .overlay h1 {
+    font-size: 4rem;
+  }
+  .overlay p {
+    font-size: 2.5rem;
+  }
+  .overlay a {
+    padding: 10px 17px;
+    font-size: 1.4rem;
+  }
+  .about-child :nth-child(1) {
+    font-size: 1.4rem;
+  }
+  .about-child :nth-child(2) {
+    font-size: 3.5rem;
+  }
+  .about-child :nth-child(3) {
+    font-size: 1.8rem;
+    line-height: 1.6;
+  }
+  .about-content2 {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .security {
+    width: 55vw;
+  }
+  .news-content {
+    font-size: 4rem;
+    padding-bottom: 3rem;
+  }
+  .news-form input {
+    padding: 2rem 25rem 2rem 2rem;
+  }
+}
+
+/*Media Quaries (max-width 590px) */
+@media (max-width: 590px) {
+  .about-content {
+    width: 95%;
+    padding: 5rem;
+  }
+  .about-child {
+    width: 80%;
+  }
+  .about-child :nth-child(2) {
+    font-size: 3rem;
+  }
+  .about-child .accordion-content p {
+    font-size: 1.8rem;
+  }
+  #shop h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 2rem 0rem 4rem;
+  }
+  .shop-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+  }
+  .shop-container {
+    width: 295px;
+  }
+  .shop-container img {
+    width: 170px;
+  }
+  .news-content {
+    font-size: 3rem;
+    padding: 0 0 3rem 0rem;
+  }
+  .news-form input {
+    padding: 2rem 15rem 2rem 2rem;
+  }
+  .news-form button {
+    padding: 2rem 10rem;
+  }
+  .footer-container {
+    padding: 5rem 5rem;
+  }
+  .footer-content p,
+  .footer-content p a {
+    font-size: 1.5rem;
+  }
+}
+
+/*Media Quaries (max-width 500px) */
+@media (max-width: 500px) {
+  nav .wrapper .search-form.visible,
+  nav .wrapper .shopping-cart.visible,
+  nav .wrapper .login-form.visible,
+  nav .wrapper .nav-links.visible {
+    right: 2rem;
+  }
+  nav .wrapper {
+    padding: 0 10px;
+  }
+  .logo img {
+    margin-left: 0.2rem;
+  }
+
+  .overlay {
+    top: 58%;
+  }
+  .overlay h1 {
+    font-size: 2rem;
+  }
+  .overlay p {
+    font-size: 1.3rem;
+  }
+  .overlay a {
+    padding: 10px 17px;
+    font-size: 1.4rem;
+  }
+  .about-content {
+    width: 100%;
+    padding: 4rem 0;
+  }
+  .about-child :nth-child(1) {
+    font-size: 1.4rem;
+  }
+  .about-child :nth-child(2) {
+    font-size: 3.5rem;
+  }
+  .about-child :nth-child(3) {
+    font-size: 1.8rem;
+    line-height: 1.6;
+  }
+  .about-content2 {
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .security {
+    width: 75vw;
+  }
+  #shop h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 2rem 0rem 4rem;
+  }
+  .shop-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+  }
+  .shop-container {
+    width: 275px;
+  }
+  .shop-container img {
+    width: 170px;
+  }
+  .carousel img {
+    height: 270px;
+  }
+  .news-content {
+    font-size: 3.5rem;
+    padding: 0 0 3rem 3rem;
+  }
+  .news-form input {
+    padding: 2rem 15rem 2rem 2rem;
+  }
+  .news-form button {
+    padding: 2rem 10rem;
+  }
+  .review h1 {
+    padding: 4rem 0 1rem 3rem;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #444231;
+  }
+  .review h1 span {
+    color: #d8b146;
+  }
+  .footer-container {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 10rem;
+    padding: 5rem 3rem;
+  }
+  .footer-content p,
+  .footer-content p a {
+    font-size: 1.6rem;
+  }
+  .copyright {
+    font-size: 1.5rem;
+  }
+}
+
+/*Media Quaries (max-width 412px) */
+@media (max-width: 412px) {
+  .about-content {
+    width: 100%;
+    padding: 4rem 0;
+  }
+  .about-child :nth-child(1) {
+    font-size: 1.3rem;
+  }
+  .about-child :nth-child(2) {
+    font-size: 3rem;
+  }
+  .security {
+    width: 78vw;
+  }
+  #shop h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 2rem 0rem 4rem;
+  }
+  .shop-container {
+    width: 290px;
+  }
+  .carousel img {
+    height: 260px;
+  }
+  .news-form input {
+    padding: 2rem 10rem 2rem 2rem;
+  }
+  .news-form button {
+    padding: 2rem 10rem;
+  }
+}
+
+/*Media Quaries (max-width 360px) */
+@media (max-width: 360px) {
+  .security {
+    width: 80vw;
+  }
+  .news-content {
+    font-size: 3rem;
+    padding: 0 0 3rem 2rem;
+  }
+}
+
+/*Media Quaries (max-width 320px) */
+@media (max-width: 320px) {
+  nav .wrapper .search-form.visible,
+  nav .wrapper .shopping-cart.visible,
+  nav .wrapper .login-form.visible,
+  nav .wrapper .nav-links.visible {
+    right: 0.8rem;
+  }
+  .about-content {
+    width: 100%;
+    padding: 4rem 0;
+  }
+  .about-child :nth-child(1) {
+    font-size: 1.2rem;
+  }
+  .about-child :nth-child(2) {
+    font-size: 2.6rem;
+  }
+  .overlay {
+    top: 50%;
+  }
+  .security {
+    width: 83vw;
+  }
+  #shop h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem 0rem 4rem;
+  }
+  .shop-container {
+    width: 280px;
+  }
+  .carousel img {
+    height: 250px;
+  }
+  .news-content {
+    font-size: 2.5rem;
+    padding: 0 0 3rem 2rem;
+  }
+  .news-form input {
+    padding: 2rem 7rem 2rem 2rem;
+  }
+  .news-form button {
+    padding: 2rem 10rem;
+  }
+  .footer-container {
+    padding: 5rem 2rem;
+  }
+}
