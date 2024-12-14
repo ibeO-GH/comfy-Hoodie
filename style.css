@@ -23,7 +23,7 @@ html {
 body {
   overflow-x: hidden;
   height: 100%;
-  background-color: #fff;
+  background-image: linear-gradient(120deg, lightblue, #888);
   font-family: "manrope", sans-serif;
 }
 /*header section styling */
@@ -62,7 +62,7 @@ body {
 
 /* navbar section styling */
 nav {
-  background-color: white;
+  background-image: linear-gradient(120deg, lightblue, #888);
   position: sticky;
   width: 100%;
   top: 0;
